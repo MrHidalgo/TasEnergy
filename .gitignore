@@ -10,3 +10,7 @@ softaculous_backups/*
 ssl/*
 tmp/*
 tasenergy.com.ua/*
+
+*.zip
+.tmp
+.temp
