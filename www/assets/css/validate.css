@@ -1,0 +1,116 @@
+.send-form .input-container label.error {
+	position: absolute;
+	top: auto;
+	bottom: -30%;
+	color: red;
+	font-size: 11px;
+	font-weight: bold;
+	transition-duration: 0s;
+}
+
+#popup1 .send-form .input-container label.error,
+#popup2 .send-form .input-container label.error {
+	bottom: -15%;
+}
+
+.send-form .input-container.animation label {
+	transform: translateY(-30px);
+}
+
+.send-form .input-container.animation label.error {
+	bottom: -18%;
+	transform: translateY(0);
+	transition-duration: 0s;
+}
+
+.send-form .has-error.input-container input:focus {
+	border-bottom: 1px solid red;
+}
+
+.send-form .has-error.input-container input {
+	color: red;
+}
+
+.send-form .has-error.input-container label {
+	color: red;
+}
+
+.popup-white__form .input-container input {
+	padding: 10px 0;
+	margin: 5px 0;
+}
+
+.btn {
+	position: relative;
+}
+
+.btn-loader {
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 26px;
+	height: 26px;
+	margin-top: -13px;
+	margin-left: -13px;
+	animation: ld-cycle 1s infinite linear;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.btn span {
+	transition: opacity 0.3s ease-in-out;
+}
+
+.btn.is-loader span {
+	opacity: 0;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.btn.is-loader .btn-loader {
+	opacity: 1;
+	transition: opacity 0.3s ease-in-out;
+}
+
+.btn-loader:after {
+	box-sizing: border-box;
+	border-width: 4px;
+	border-color: white white white transparent;
+}
+
+.btn-loader:after {
+	border-radius: 50%;
+	border-style: solid;
+}
+
+.btn-loader:after {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	content: " ";
+	display: inline-block;
+	background: center center no-repeat;
+	background-size: cover;
+}
+
+.btn-loader:after {
+	width: 100%;
+	height: 100%;
+}
+
+@keyframes ld-cycle {
+	0%, 50%, to {
+		animation-timing-function: cubic-bezier(.5, .5, .5, .5)
+	}
+	0% {
+		transform: rotate(0)
+	}
+	50% {
+		transform: rotate(180deg)
+	}
+	to {
+		transform: rotate(360deg)
+	}
+}

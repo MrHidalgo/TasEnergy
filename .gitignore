@@ -1,0 +1,12 @@
+.idea/*
+access-logs/*
+etc/*
+logs/*
+mail/*
+perl5/*
+public_ftp/*
+public_html/*
+softaculous_backups/*
+ssl/*
+tmp/*
+tasenergy.com.ua/*
