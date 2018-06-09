@@ -18,7 +18,7 @@
 }
 
 .send-form .input-container.animation label.error {
-	bottom: -18%;
+	bottom: -20%;
 	transform: translateY(0);
 	transition-duration: 0s;
 }
@@ -27,10 +27,7 @@
 	border-bottom: 1px solid red;
 }
 
-.send-form .has-error.input-container input {
-	color: red;
-}
-
+.send-form .has-error.input-container input,
 .send-form .has-error.input-container label {
 	color: red;
 }

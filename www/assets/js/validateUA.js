@@ -67,8 +67,8 @@ $(document).ready(function () {
             messages: {
                 edrpou: {
                     required: "Необхідно заповнити це поле",
-                    minlength: "Введіть лише 8 цифр",
-                    maxlength: "Введіть лише 8 цифр",
+                    minlength: "Введіть 8 цифр",
+                    maxlength: "Введіть 8 цифр",
                     digits : "Будь ласка, введіть лише цифри"
                 },
                 email: {
