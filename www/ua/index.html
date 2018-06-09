@@ -16,7 +16,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta name="author" content=""/>
     <meta name="copyright" content="(c)">
-    s
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="format-detection" content="telephone=no"/>
     <meta name="format-detection" content="address=no"/>
@@ -114,7 +114,7 @@
                     <div class="f-left wow fadeInUp" data-wow-delay="0.2s">
                         <div class="f-left__info">
                             <h1 class="wow fadeInUp" data-wow-delay="0.35s">Ваш надійний постачальник енергії</h1>
-                            <p class="wow fadeInUp" data-wow-delay="0.5s"">Ми прозоро показуємо ціну на газ своїм клієнтам і персонально з кожним узгоджуємо його кінцеву вартість</p>
+                            <p class="wow fadeInUp" data-wow-delay="0.5s">Ми прозоро показуємо ціну на газ своїм клієнтам і персонально з кожним узгоджуємо його кінцеву вартість</p>
                         </div>
                     </div>
                     <div class="f-right">
@@ -147,16 +147,21 @@
                         <form action="mail.php" autocomplete="off" method="post" class="f-right__form wow fadeInUp send-form" data-wow-delay="0.95s" discoverForm-js>
                             <h2>Дізнайтесь персональну ціну на газ</h2>
                             <div class="input-container">
-                                <input type="text" name="edrpou" id="fs1" class="login-input no-spinners">
+                                <input type="text" name="edrpou" id="fs1" class="login-input no-spinners"
+                                       placeholder="" data-placeholder="123456"
+                                >
                                 <label for="fs1" unselectable="on">Введіть ЄДРПОУ</label>
                             </div>
                             <div class="input-container">
-                                <input type="text" name="email" id="fs2" class="login-input">
+                                <input type="text" name="email" id="fs2" class="login-input"
+                                       placeholder="" data-placeholder="email.email@gmail.com"
+                                >
                                 <label for="fs2" unselectable="on">Введіть електронну адресу</label>
                             </div>
                             <div class="input-container">
                                 <input
                                         type="text" id="fs3" name="phone" class="login-input"
+                                        placeholder="" data-placeholder="+1234567890"
                                         oninput="this.value = this.value.replace(/[^+?0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                                 >
                                 <label for="fs3" unselectable="on">Телефон</label>
@@ -297,16 +302,21 @@
         <p class="popup-white__title">Дізнайтесь персональну ціну на газ</p>
         <form action="mail.php" autocomplete="off" method="post" class="popup-white__form send-form" personalForm-js>
             <div class="input-container">
-                <input type="text" id="pp1" class="login-input" name="edrpou">
+                <input type="text" id="pp1" class="login-input" name="edrpou"
+                       placeholder="" data-placeholder="123456"
+                >
                 <label for="pp1" unselectable="on">Введіть ЄДРПОУ</label>
             </div>
             <div class="input-container">
-                <input type="text" id="pp2" class="login-input" name="email">
+                <input type="text" id="pp2" class="login-input" name="email"
+                       placeholder="" data-placeholder="email.email@gmail.com"
+                >
                 <label for="pp2" unselectable="on">Введіть електронну адресу</label>
             </div>
             <div class="input-container">
                 <input
                         type="text" id="pp3" name="phone" class="login-input"
+                        placeholder="" data-placeholder="+1234567890"
                         oninput="this.value = this.value.replace(/[^+?0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                 >
                 <label for="pp3" unselectable="on">Телефон</label>
@@ -322,15 +332,20 @@
         <p class="popup-white__title">Зафіксуйте літню ціну</p>
         <form action="mail2.php" autocomplete="off" method="post" class="popup-white__form send-form" fixForm-js>
             <div class="input-container">
-                <input type="text" id="pp11" class="login-input" name="edrpou">
+                <input type="text" id="pp11" class="login-input" name="edrpou"
+                       placeholder="" data-placeholder="123456"
+                >
                 <label for="pp11" unselectable="on">Введіть ЄДРПОУ</label>
             </div>
             <div class="input-container">
-                <input type="text" id="pp12" class="login-input" name="email">
+                <input type="text" id="pp12" class="login-input" name="email"
+                       placeholder="" data-placeholder="email.email@gmail.com"
+                >
                 <label for="pp12" unselectable="on">Введіть електронну адресу</label>
             </div>
             <div class="input-container">
                 <input type="text" id="pp13" class="login-input" name="phone"
+                       placeholder="" data-placeholder="+1234567890"
                        oninput="this.value = this.value.replace(/[^+?0-9.]/g, '').replace(/(\..*)\./g, '$1');"
                 >
                 <label for="pp13" unselectable="on">Телефон</label>

@@ -40,6 +40,23 @@
 	margin: 5px 0;
 }
 
+.login-input::-webkit-input-placeholder {
+	color: rgba(0, 0, 0, 0.45);
+	font-size: 14px;
+}
+.login-input::-moz-placeholder {
+	color: rgba(0, 0, 0, 0.45);
+	font-size: 14px;
+}
+.login-input:-ms-input-placeholder {
+	color: rgba(0, 0, 0, 0.45);
+	font-size: 14px;
+}
+.login-input:-moz-placeholder {
+	color: rgba(0, 0, 0, 0.45);
+	font-size: 14px;
+}
+
 .btn {
 	position: relative;
 }

@@ -228,11 +228,17 @@ $(document).ready(function() {
 
     $(".login-input").focus(function() {
         $(this).closest(".input-container").addClass("animation animation-color");
+
+        var _placeholder = $(this).attr("data-placeholder");
+        $(this).attr("placeholder", _placeholder);
     });
 
     $(".login-input").focusout(function() {
         if ($(this).val() === "") {
             $(this).closest(".input-container").removeClass("animation");
+
+            var _placeholder = $(this).attr("data-placeholder");
+            $(this).attr("placeholder", "");
         }
         $(this).closest(".input-container").removeClass("animation-color");
     });
