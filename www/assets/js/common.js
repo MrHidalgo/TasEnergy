@@ -364,17 +364,33 @@ $(document).ready(function() {
         });
     })();
 
+    var objText = {
+        "ua" : {
+            0: "Увійти до кабінету",
+            1: "Увійти",
+        },
+        "ru" : {
+            0: "Войти в кабинет",
+            1: "Войти",
+        },
+        "en" : {
+            0: "Login",
+            1: "Login",
+        },
+    };
+    var currLang = $("html").attr("lang");
+
     (function() {
         if ($(document).width() > 1268) {
-            $(document).find('.enter-link').html('Увійти до кабінету');
+            $(document).find('.enter-link').html(objText[currLang][0]);
         } else {
-            $(document).find('.enter-link').html('Увійти');
+            $(document).find('.enter-link').html(objText[currLang][1]);
         }
         $(window).resize(function() {
             if ($(document).width() > 1268) {
-                $(document).find('.enter-link').html('Увійти до кабінету');
+                $(document).find('.enter-link').html(objText[currLang][0]);
             } else {
-                $(document).find('.enter-link').html('Увійти');
+                $(document).find('.enter-link').html(objText[currLang][1]);
             }
         });
     })();
