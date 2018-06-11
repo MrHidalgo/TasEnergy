@@ -13,6 +13,6 @@ tasenergy.com.ua/*
 www/sendgrid-php/*
 
 *.zip
-.tmp
-.temp
-.env
+*.tmp
+*.temp
+*.env
