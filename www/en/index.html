@@ -88,19 +88,19 @@
 					<div data-teleport-target="mobile-select" class="mobile-editable"></div>
 				</div>
 			</div>
-			<div class="header__right" js-teleport data-teleport-to="mobile-select" data-teleport-condition="<768">
-				 <div class="header__languages animate fade6">
-                    <img src="images/earth.svg" alt="">
-                    <p>УКР</p>
-                    <div class="header__more-languages">
-                        <a href="#" class="is-active">УКР</a>
-                        <a href="#">РУС</a>
-                        <a href="#">ENG</a>
+                <div class="header__right" js-teleport data-teleport-to="mobile-select" data-teleport-condition="<768">
+                    <div class="header__languages animate fade6">
+                        <img src="images/earth.svg" alt="">
+                        <p>ENG</p>
+                        <div class="header__more-languages">
+                            <a href="?lang=ua" class="no-barba">УКР</a>
+                            <a href="?lang=ru" class="no-barba">РУС</a>
+                            <a href="?lang=en" class="no-barba is-active">ENG</a>
+                        </div>
                     </div>
+                    <a href="https://24b.tascombank.ua/login" class="enter-link animate fade4">Login</a>
+                    <a href="https://24b.tascombank.ua/signup" target="_blank" class="btn animate fade5">Sign up</a>
                 </div>
-				<a href="https://24b.tascombank.ua/login" class="enter-link animate fade4">Login</a>
-				<a href="https://24b.tascombank.ua/signup" target="_blank" class="btn animate fade5">Registe</a>
-			</div>
 		</nav>
 		<!-- End "header-nav-->
 	</header>
@@ -222,7 +222,7 @@
 								</a>
 							</div>
 						</div>
-						<a href="https://24b.tascombank.ua/signup" target="_blank" class="btn fadeInUp wow" data-wow-delay="1.5s">Try</a>
+						<a href="https://24b.tascombank.ua/signup" target="_blank" class="btn fadeInUp wow" data-wow-delay="1.5s">Try Now</a>
 					</div>
 				</div>
 				<div class="change">
@@ -242,7 +242,7 @@
 						<a href="https://24b.tascombank.ua/signup" target="_blank" class="btn fadeInUp wow">Change the supplier of gas</a>
 						<div class="like fadeInUp wow">
 							<img src="images/like.png" alt="">
-							<p>We will provide You the favourable procedure of change of the supplier</p>
+							<p>We will provide you the favourable procedure of change of the supplier</p>
 						</div>
 					</div>
 				</div>
@@ -376,8 +376,8 @@
 					<p class="c-info__title">телефон</p>
 				</div>
 				<a href="tel:380664041978">+38 066-404-1978</a>
-				<p>Понеділок - П’ятниця</p>
-				<p>з 9.00 до 18.00</p>
+				<p>Monday - Friday</p>
+				<p> 9.00 - 18.00</p>
 
 			</div>
 			<div class="popup-contacts__item">
@@ -391,8 +391,8 @@
 	</div>
 
 	<div class="thankpopup popup-white mfp-with-anim mfp-hide" id="thankpopup">
-		<h2>Дякуємо за заявку</h2>
-		<p>Наш менеджер зв'яжеться з Вами найближчим часом</p>
+		<h2>Thank you</h2>
+		<p>We will contact you soon</p>
 	</div>
 	<!-- End popups -->
 </div>
@@ -424,7 +424,7 @@
 <script language="javascript" type="text/javascript">
     var d = new Date();
 
-    var month = new Array("січня", "лютого", "березня", "квітня", "травня", "червня", "липня", "серпня", "вересня", "жовтня", "листопада", "грудня");
+    var month = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 
     $('#span_date').html(d.getDate() + " " + month[d.getMonth()]
         + " " + d.getFullYear() + " г.");

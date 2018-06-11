@@ -2952,6 +2952,12 @@ h2 {
       .footer__item:last-child img {
         margin-left: 5px;
         opacity: 0.35; }
+ .footer__item:last-child p:hover {
+        font-size: 12px;
+        opacity: 0.5; }
+      .footer__item:last-child img:hover {
+        margin-left: 5px;
+        opacity: 0.5; }
     .footer__item .made-by {
       display: -webkit-box;
       display: -ms-flexbox;

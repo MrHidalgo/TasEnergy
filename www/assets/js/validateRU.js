@@ -67,7 +67,7 @@ $(document).ready(function () {
             messages: {
                 edrpou: {
                     required: "Необходимо заполнить это поле",
-                    minlength: "Введите только 8 цифр",
+                    minlength: "Введите 8 цифр",
                     maxlength: "Введите только 8 цифр",
                     digits : "Пожалуйста, введите только цифры"
                 },

@@ -88,19 +88,19 @@
                     <div data-teleport-target="mobile-select" class="mobile-editable"></div>
                 </div>
             </div>
-            <div class="header__right" js-teleport data-teleport-to="mobile-select" data-teleport-condition="<768">
-                 <div class="header__languages animate fade6">
-                    <img src="images/earth.svg" alt="">
-                    <p>УКР</p>
-                    <div class="header__more-languages">
-                        <a href="#" class="is-active">УКР</a>
-                        <a href="#">РУС</a>
-                        <a href="#">ENG</a>
+                <div class="header__right" js-teleport data-teleport-to="mobile-select" data-teleport-condition="<768">
+                    <div class="header__languages animate fade6">
+                        <img src="images/earth.svg" alt="">
+                        <p>УКР</p>
+                        <div class="header__more-languages">
+                            <a href="?lang=ua" class="no-barba is-active">УКР</a>
+                            <a href="?lang=ru" class="no-barba">РУС</a>
+                            <a href="?lang=en" class="no-barba">ENG</a>
+                        </div>
                     </div>
+                    <a href="https://24b.tascombank.ua/login" class="enter-link animate fade4">Увійти до кабінету</a>
+                    <a href="https://24b.tascombank.ua/signup" target="_blank" class="btn animate fade5">Зареєструватися</a>
                 </div>
-                <a href="https://24b.tascombank.ua/login" class="enter-link animate fade4">Увійти до кабінету</a>
-                <a href="https://24b.tascombank.ua/signup" target="_blank" class="btn animate fade5">Зареєструватися</a>
-            </div>
         </nav>
         <!-- End "header-nav-->
     </header>
@@ -429,7 +429,7 @@
     var month = new Array("січня", "лютого", "березня", "квітня", "травня", "червня", "липня", "серпня", "вересня", "жовтня", "листопада", "грудня");
 
     $('#span_date').html(d.getDate() + " " + month[d.getMonth()]
-        + " " + d.getFullYear() + " г.");
+        + " " + d.getFullYear() + " р.");
 
 </script>
 </body>

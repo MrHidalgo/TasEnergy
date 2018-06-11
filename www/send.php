@@ -1,5 +1,5 @@
 <?php
-	$owner_email = "max197a@yandex.ua"; // емейл на который отправляются письма
+	$owner_email = "info@tasenergy.com.ua"; // емейл на который отправляются письма
 	$headers = "Content-type: text/html; charset=utf-8 \r\n";
 	$subject = 'Сообщение с сайта ' . $_SERVER['SERVER_NAME'];
 	$messageBody = "";

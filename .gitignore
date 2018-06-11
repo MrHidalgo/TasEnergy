@@ -10,6 +10,7 @@ softaculous_backups/*
 ssl/*
 tmp/*
 tasenergy.com.ua/*
+www/sendgrid-php/*
 
 *.zip
 .tmp

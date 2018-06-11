@@ -67,8 +67,8 @@ $(document).ready(function () {
             messages: {
                 edrpou: {
                     required: "You must fill this field",
-                    minlength: "Enter only 8 digits",
-                    maxlength: "Enter only 8 digits",
+                    minlength: "Enter 8 digits",
+                    maxlength: "Max 8 digits",
                     digits : "Please enter only numbers"
                 },
                 email: {
